@@ -1,0 +1,24 @@
+body {
+  background-image: url(images/480_F_470310483_Ru94TDoJPupOo8DB07SNgxNmklT39mIm.jpg);
+background-size: cover;
+min-width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#Welcome {
+  height: 50vw;
+  width: 50vw;
+  stroke-dasharray: 1364.4730224609375;
+  animation: 3s fillSvg linear;
+}
+
+@keyframes fillSvg {
+  0% {
+    stroke-dashoffset:1364.4730224609375 ;
+  }
+  100% {
+    stroke-dasharray: 1364.4730224609375;
+  }
+}
